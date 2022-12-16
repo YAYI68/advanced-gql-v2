@@ -4,7 +4,7 @@ const typeDefs = require('./typedefs')
 const resolvers = require('./resolvers')
 const {createToken, getUserFromToken} = require('./auth')
 const db = require('./db')
-const { FormatDateDirective } = require('./directives')
+const { FormatDateDirective,AuthenticationDirective,AuthorizationDirective } = require('./directives')
 
 class LogDirective extends SchemaDirectiveVisitor {
   visitFieldDefinition(field){
@@ -28,7 +28,9 @@ const server = new ApolloServer({
   resolvers,
   schemaDirectives:{
     formatDate:FormatDateDirective,
-    log:LogDirective
+    log:LogDirective,
+    authenticated:AuthenticationDirective,
+    authorized:AuthorizationDirective,
   },
   context({req,connection}) {
     const context = {...db}
