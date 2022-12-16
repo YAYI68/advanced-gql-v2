@@ -8,8 +8,111 @@
       "avatar": "http",
       "createdAt": 1571213104370,
       "id": "Z2hlvDmLOSRZGebC_Z_aA"
+    },
+    {
+      "email": "yayi@gmail.com",
+      "password": "123456789",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1671094632700,
+      "id": "AbURzIadKAv2AMqii3JNH"
+    },
+    {
+      "email": "bisi@gmail.com",
+      "password": "123456789",
+      "role": "MEMBER",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1671095604532,
+      "id": "OY2llJsUOUQE_UPHUtFrf"
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "message": "This is my first new post",
+      "author": "AbURzIadKAv2AMqii3JNH",
+      "createdAt": 1671095429242,
+      "id": "HzkhWLD9uGph89OEtwjw5"
+    },
+    {
+      "message": "This is my first new post",
+      "author": "AbURzIadKAv2AMqii3JNH",
+      "createdAt": 1671095532724,
+      "id": "1dyigjynF8bTfZr16KZI0"
+    },
+    {
+      "message": "This is my second  post",
+      "author": "AbURzIadKAv2AMqii3JNH",
+      "createdAt": 1671095567244,
+      "id": "oVDGkyiK50QEg8w1yPLZ2"
+    },
+    {
+      "message": "Testing my first post as a member",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671095656068,
+      "id": "7XlkPbRAI9ycGjG5AJybt"
+    },
+    {
+      "message": "New post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671104783602,
+      "id": "yvYvT_qK3tNOr_REdEfKi"
+    },
+    {
+      "message": "Another post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671104835762,
+      "id": "AvnA88I9CfdR1vt5pgUM8"
+    },
+    {
+      "message": "Another post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671104847032,
+      "id": "iu2QKXsUMfnwVb5qNa2Cm"
+    },
+    {
+      "message": "Another 2 post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671104854081,
+      "id": "GZN1HiN7Ga84kzhb83dwo"
+    },
+    {
+      "message": "Another 2 post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671104877073,
+      "id": "aFlEgFZlmvaL_bDYiqBWN"
+    },
+    {
+      "message": "Another 3 post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671104890186,
+      "id": "Wv4tKi5GzBuZyf_SqPZ7C"
+    },
+    {
+      "message": "Another 4 post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671106828778,
+      "id": "xrB4gkAoc9CLpQ1279Kgn"
+    },
+    {
+      "message": "Another 5 post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671106838592,
+      "id": "vZPuyR9AupS5dmfLSnuzm"
+    },
+    {
+      "message": "Another 5 post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671106919231,
+      "id": "-ddBRv45oJGeIexmFHlTr"
+    },
+    {
+      "message": "Another 5 post to be shown on subscribe",
+      "author": "OY2llJsUOUQE_UPHUtFrf",
+      "createdAt": 1671107288977,
+      "id": "kRUWZQsugOGUo3sgiLvK-"
+    }
+  ],
   "settings": []
 }
